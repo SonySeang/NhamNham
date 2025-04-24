@@ -6,6 +6,9 @@ android {
     namespace = "com.example.nhamnham"
     compileSdk = 35
 
+    viewBinding{
+        enable = true
+    }
     defaultConfig {
         applicationId = "com.example.nhamnham"
         minSdk = 25
@@ -25,6 +28,8 @@ android {
             )
         }
     }
+
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11

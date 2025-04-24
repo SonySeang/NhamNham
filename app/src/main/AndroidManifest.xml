@@ -13,6 +13,20 @@
         android:theme="@style/Theme.NhamNham"
         tools:targetApi="31">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".WelcomePage"
+            android:exported="false" />
+        <activity
+            android:name=".FirstOpenApp"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,6 +34,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
