@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">NhamNham</string>
+    <string name="nham_nham">Nham Nham - ញ៉ាំញ៉ាំ</string>
+    <string name="log_in">Log in</string>
+    <string name="go_nham_now">Go Nham Now</string>
+    <string name="log_in_page">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="user">User</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
