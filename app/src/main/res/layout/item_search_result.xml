@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- Thumbnail image -->
+    <ImageView
+        android:id="@+id/imageThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:background="#DADADA" />
+
+    <!-- Title text -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phalla"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingTop="8dp"/>
+
+    <!-- Subtitle text -->
+    <TextView
+        android:id="@+id/textSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Khmer Dish"
+        android:textSize="14sp"
+        android:textColor="#777"/>
+
+</LinearLayout>

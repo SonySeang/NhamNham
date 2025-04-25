@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:id="@+id/header_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFA726"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eating is Fun"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Top Section -->
+        <LinearLayout
+            android:id="@+id/recommend_food_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/header_section"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/recommend_food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommend Food"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:id="@+id/recommend_food_categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_khmer"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:id="@+id/image_drink"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:id="@+id/image_pizza"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="#E0E0E0" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Middle Section -->
+        <LinearLayout
+            android:id="@+id/popular_food_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/recommend_food_section"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/popular_food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Popular Food"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <GridLayout
+                android:id="@+id/popular_food_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="2"
+                android:padding="8dp">
+
+                <!-- Six empty squares -->
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="#E0E0E0" />
+            </GridLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
