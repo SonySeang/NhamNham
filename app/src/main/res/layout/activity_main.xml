@@ -152,6 +152,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#FFD54F"
-        app:menu="@menu/bottom_nav" />
+        app:menu="@menu/bottom_menu_item" />
 
 </RelativeLayout>
